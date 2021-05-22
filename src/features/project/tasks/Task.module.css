@@ -1,0 +1,17 @@
+.task {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.container {
+    padding: 4px 12px 6px 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+}

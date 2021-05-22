@@ -1,0 +1,10 @@
+.boardsHolder {
+    display: flex;
+    height: 100%;
+    column-gap: 4px;
+    padding: 10px;
+}
+
+.boardsHolder > * {
+    flex: 1;
+}

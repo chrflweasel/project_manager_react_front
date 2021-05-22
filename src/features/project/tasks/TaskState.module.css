@@ -1,0 +1,20 @@
+.taskState {
+    padding: 0 8px;
+    border-radius: 8px;
+}
+
+.colorDraft {
+    background-color: #797979 !important;
+}
+
+.colorOpen {
+    background-color: #36b7f3 !important;
+}
+
+.colorProgress {
+    background-color: #8f2bcd !important;
+}
+
+.colorDone {
+    background-color: #37bc1a !important;
+}
