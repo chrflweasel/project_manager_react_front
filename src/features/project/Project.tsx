@@ -10,9 +10,9 @@ export const Project = () => {
     const [tasks, setTasks] = useState<TaskInterface[]>([])
 
     useEffect(() => {
-        getTasks().then(res => {
+        getTasks(10).then(res => {
             if (res.success) {
-                setTasks(res.tasks)
+                setTasks(res.tasks ? res.tasks : [])
             }
         }).catch(e => console.log(e))
     }, [])
